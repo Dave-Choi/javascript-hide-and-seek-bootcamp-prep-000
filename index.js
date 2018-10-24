@@ -21,7 +21,7 @@ function deepestChild(){
   let depth = 0;
   
   while(deepest.querySelector("div")){
-    deepest = deepest.children[0];
+    deepest = deepest.querySelector("div");
     depth++;
   }
   return depth;
