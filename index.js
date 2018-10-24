@@ -24,6 +24,6 @@ function deepestChild(){
     deepest = deepest.querySelector("div");
     depth++;
   }
-  return depth;
+  
   return deepest;
 }
