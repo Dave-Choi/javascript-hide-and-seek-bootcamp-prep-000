@@ -20,7 +20,7 @@ function deepestChild(){
   let deepest = root;
   let depth = 0;
   
-  while(deepest.children){
+  while(deepest.querySelector("div")){
     deepest = deepest.children[0];
     depth++;
   }
